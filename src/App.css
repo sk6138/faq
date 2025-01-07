@@ -1,0 +1,74 @@
+.list {
+  padding: 10px 15px;
+  margin: 10px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  max-width: 800px;
+  cursor: pointer;
+}
+
+.list:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listborder {
+  padding: 10px 15px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  max-width: 800px;
+}
+
+.listborder:hover {
+  background-color: #e8f5e9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list em {
+  flex: 1;
+  color: #555;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.list em:last-child {
+  align-self: flex-end;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.listborder em {
+  color: #333;
+  font-style: normal;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.listborder em:last-child {
+  align-self: flex-end;
+  font-size: 18px;
+  color: #4caf50;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list em:hover,
+.listborder em:last-child:hover {
+  color: #007bff;
+}
+.cross{
+  align-self: flex-end;
+}
